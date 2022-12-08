@@ -1,11 +1,10 @@
-package junitTests;
+package junit;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.*;
 
 import static com.codeborne.selenide.Condition.appear;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 
 public class SteamLocalizationTests{
